@@ -1,28 +1,30 @@
 .banner_container {
-  width: 100%;
-  display: flex;
+  width: calc(100vw - 8px);
+  max-width: 1540px;
+  height: calc(100vh - 80px);
 }
 
 .video_bg {
   display: flex;
-  width: 100%;
+  width: calc(100vw - 8px);
+  max-width: 1540px;
   height: calc(100vh - 80px);
   position: absolute;
-  left: 0;
   z-index: -1;
 }
 
 .video_bg video {
   width: 100%;
+  max-width: 1540px;
   object-fit: cover;
 }
 
 .banner_container .banner_overlay {
   background-color: #000000bd;
   height: calc(100vh - 80px);
-  left: 0;
   z-index: 1;
-  width: 100%;
+  width: calc(100vw - 8px);
+  max-width: 1540px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -31,30 +33,17 @@
   box-sizing: border-box;
   position: absolute;
   color: white;
-  font-weight: 500;
-  letter-spacing: 1px;
+}
+
+.banner_motto {
+  opacity: 0;
+  letter-spacing: 1.5px;
   word-spacing: 1px;
 }
 
-.banner_motto_1 {
-  font: 700;
-  font-size: 40px;
-  opacity: 0;
-}
-
-.banner_motto_2 {
-  font-weight: 800;
-  font-size: 48px;
-  opacity: 0;
-}
-
-.banner_motto_3 {
-  font-weight: 900;
-  font-size: 75px;
-  opacity: 0;
-}
-
 .load_animation_1 {
+  font: 700;
+  font-size: 50px;
   animation: banner_animation_1 1s ease 1s 1 forwards;
 }
 
@@ -70,6 +59,9 @@
 }
 
 .load_animation_2 {
+  margin: 10px 0;
+  font-weight: 800;
+  font-size: 55px;
   animation: banner_animation_2 1s ease 1.5s 1 forwards;
 }
 
@@ -85,6 +77,8 @@
 }
 
 .load_animation_3 {
+  font-weight: 900;
+  font-size: 78px;
   animation: banner_animation_3 1s ease 2s 1 forwards;
 }
 

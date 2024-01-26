@@ -14,21 +14,21 @@ const Banner = () => {
       <div className="banner_overlay">
         <span
           className={
-            pageLoaded ? "banner_motto_2 load_animation_1" : "banner_motto_2"
+            pageLoaded ? "banner_motto load_animation_1" : "banner_motto"
           }>
-          Dive Into A Realm Of Clarity
+          Dive Into A Realm Of Clarity And
         </span>
         <span
           className={
-            pageLoaded ? "banner_motto_2 load_animation_2" : "banner_motto_2"
+            pageLoaded ? "banner_motto load_animation_2" : "banner_motto"
           }>
-          And Sustainability With Our Advanced
+          Sustainability With Our Advanced
         </span>
         <span
           className={
-            pageLoaded ? "banner_motto_3 load_animation_3" : "banner_motto_3"
+            pageLoaded ? "banner_motto load_animation_3" : "banner_motto"
           }>
-          Water Treatment Services.
+          Water Treatment Services
         </span>
       </div>
     </div>
