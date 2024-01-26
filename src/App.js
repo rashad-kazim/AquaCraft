@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { AppContext } from "./context/AppContext";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import "./App.css";
 
 function App() {
+  // Check the page's all content is loaded or not
+  const [pageLoaded, setPageLoaded] = useState(false);
+
+  useEffect(() => {
+    const handleLoad = () => {
+      setPageLoaded(true);
+    };
+
+    // Add event listener for the page load event
+    window.addEventListener("load", handleLoad);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("load", handleLoad);
+    };
+  }, []);
+  // Check the page's all content is loaded or not
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app_container">
+      <AppContext.Provider
+        value={{
+          pageLoaded,
+        }}>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Main />} />
+          </Routes>
+        </BrowserRouter>
+      </AppContext.Provider>
     </div>
   );
 }

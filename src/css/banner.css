@@ -1,0 +1,100 @@
+.banner_container {
+  width: 100%;
+  display: flex;
+}
+
+.video_bg {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 80px);
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.video_bg video {
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner_container .banner_overlay {
+  background-color: #000000bd;
+  height: calc(100vh - 80px);
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 150px;
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.banner_motto_1 {
+  font: 700;
+  font-size: 40px;
+  opacity: 0;
+}
+
+.banner_motto_2 {
+  font-weight: 800;
+  font-size: 48px;
+  opacity: 0;
+}
+
+.banner_motto_3 {
+  font-weight: 900;
+  font-size: 75px;
+  opacity: 0;
+}
+
+.load_animation_1 {
+  animation: banner_animation_1 1s ease 1s 1 forwards;
+}
+
+@keyframes banner_animation_1 {
+  from {
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.load_animation_2 {
+  animation: banner_animation_2 1s ease 1.5s 1 forwards;
+}
+
+@keyframes banner_animation_2 {
+  from {
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.load_animation_3 {
+  animation: banner_animation_3 1s ease 2s 1 forwards;
+}
+
+@keyframes banner_animation_3 {
+  from {
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
