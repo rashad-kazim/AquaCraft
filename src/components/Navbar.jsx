@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -32,11 +32,9 @@ const Navbar = () => {
       </div>
 
       {/* Page Clickable Logo */}
-      <div className="logo_container">
-        <Link to="/" className="logo">
-          <img src={logo} alt="logo" />
-        </Link>
-      </div>
+      <Link to="/" className="logo">
+        <img src={logo} alt="logo" />
+      </Link>
 
       {/* Navbar */}
 
@@ -45,13 +43,13 @@ const Navbar = () => {
           <Link to="/" className="nav_item">
             Home Page
           </Link>
-          <Link to="/" className="nav_item">
+          <Link to="portfolio" className="nav_item">
             Portfolio
           </Link>
-          <Link to="" className="nav_item">
+          <Link to="about" className="nav_item">
             About Us
           </Link>
-          <Link to="" className="nav_item">
+          <Link to="contact" className="nav_item">
             Contact Us
           </Link>
         </nav>

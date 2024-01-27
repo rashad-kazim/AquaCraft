@@ -6,7 +6,7 @@ import "../css/portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio_container">
+    <div className="portfolio_container" id="portfolio">
       <div className="portfolio_header_container">
         <span className="portfolio_detail">Who We Serve</span>
         <span className="portfolio_header">Our Portfolio</span>

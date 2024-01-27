@@ -1,0 +1,137 @@
+.about_container {
+  width: 100%;
+  max-width: 1540px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.about_main_header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 0 30px 150px;
+  box-sizing: border-box;
+}
+
+.about_main_header span {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about_line {
+  width: 100px;
+  height: 5px;
+  background-color: rgb(71, 120, 255);
+}
+
+.wh_we_are_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0 40px 0;
+}
+
+.wh_we_are_content p {
+  width: 70%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.exp_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../assets/images/ShowcaseBackground.jpg");
+  padding: 40px 0;
+}
+
+.content_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.content_header h2 {
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+}
+
+.exp_content {
+  width: 80%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.exp_content span {
+  font-size: 17px;
+  font-weight: 100;
+  width: 65%;
+}
+
+.exp_content img {
+  width: 370px;
+  height: 310px;
+}
+
+.inter_container {
+  width: 100%;
+  align-items: center;
+  background-image: url("../assets/images/team.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inter_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.349);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  width: 100%;
+  padding: 40px 0;
+}
+
+.inter_header {
+  color: black;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+}
+
+.inter_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.inter_content p {
+  width: 70%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+}
