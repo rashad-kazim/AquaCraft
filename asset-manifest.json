@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aquacraft/static/css/main.f876e2d4.css",
-    "main.js": "/aquacraft/static/js/main.33da432f.js",
+    "main.js": "/aquacraft/static/js/main.c8e0114c.js",
     "static/js/787.f87f3909.chunk.js": "/aquacraft/static/js/787.f87f3909.chunk.js",
     "static/media/HeroBanner.mp4": "/aquacraft/static/media/HeroBanner.5cccbdc2192a70835197.mp4",
     "static/media/ShowcaseBackground.jpg": "/aquacraft/static/media/ShowcaseBackground.712e3909e26ee298267f.jpg",
@@ -14,11 +14,11 @@
     "static/media/commercial.jpg": "/aquacraft/static/media/commercial.b5b8bc398ee7a7576df5.jpg",
     "index.html": "/aquacraft/index.html",
     "main.f876e2d4.css.map": "/aquacraft/static/css/main.f876e2d4.css.map",
-    "main.33da432f.js.map": "/aquacraft/static/js/main.33da432f.js.map",
+    "main.c8e0114c.js.map": "/aquacraft/static/js/main.c8e0114c.js.map",
     "787.f87f3909.chunk.js.map": "/aquacraft/static/js/787.f87f3909.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f876e2d4.css",
-    "static/js/main.33da432f.js"
+    "static/js/main.c8e0114c.js"
   ]
 }
