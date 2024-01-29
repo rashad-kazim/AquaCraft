@@ -33,7 +33,7 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="/aquacraft" element={<Main />} />
           </Routes>
         </BrowserRouter>
       </AppContext.Provider>
