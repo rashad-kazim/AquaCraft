@@ -7,10 +7,12 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import "../css/navbar.css";
+import "../css/responsive/navbar.css";
 import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
+
   return (
     <div className="navbar_container">
       {/* Hamburger button for Responsive Mode */}
@@ -32,16 +34,19 @@ const Navbar = () => {
       </div>
 
       {/* Page Clickable Logo */}
-      <Link to="/" className="logo">
+      <Link to="banner" className="logo">
         <img src={logo} alt="logo" />
       </Link>
 
       {/* Navbar */}
 
-      <div className="right_container">
+      <div
+        className={
+          hamburger === true ? "right_container right_resp" : "right_container"
+        }>
         <nav className="nav_container">
-          <Link to="/" className="nav_item">
-            Home Page
+          <Link to="banner" className="nav_item">
+            Home
           </Link>
           <Link to="portfolio" className="nav_item">
             Portfolio

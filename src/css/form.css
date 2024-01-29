@@ -54,7 +54,6 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding-bottom: 35px;
   box-sizing: border-box;
   margin-top: 30px;
 }
@@ -62,9 +61,10 @@
 .contact_item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: calc(100% / 3);
+  height: auto;
 }
 
 .contact_item img {
@@ -86,11 +86,15 @@
 }
 
 .item_content {
+  height: auto;
   font-size: 19px;
   font-weight: 700;
-  line-height: 1;
-  margin-bottom: 0;
   margin-top: 10px;
+}
+
+.item_adress {
+  width: 200px;
+  text-align: center;
 }
 
 .contact_bottom_side {
@@ -181,4 +185,9 @@ textarea {
   outline: none;
   border: none;
   letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.form_submit:hover {
+  background-color: #00358a;
 }

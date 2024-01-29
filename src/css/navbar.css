@@ -42,7 +42,7 @@
 
 .ham_button_cont .hamburger_menu span {
   height: 4px;
-  background-color: #37447e;
+  background-color: white;
   transition: all 0.3s ease;
   border-radius: 5px;
 }
@@ -143,6 +143,7 @@
 }
 
 .social_item:hover {
+  cursor: pointer;
   color: rgb(255, 152, 34);
 }
 

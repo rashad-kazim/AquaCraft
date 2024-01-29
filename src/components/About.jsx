@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/about.css";
+import "../css/responsive/about.css";
 import smteam from "../assets/images/smteam.jpg";
 
 const About = () => {

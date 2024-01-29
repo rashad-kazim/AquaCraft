@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/form.css";
+import "../css/responsive/form.css";
 import phone from "../assets/images/phone.png";
 import location from "../assets/images/location.png";
 import email from "../assets/images/email.png";
@@ -48,7 +49,7 @@ const ContactForm = () => {
           <div className="contact_item">
             <img src={location} alt="" />
             <span className="item_name">ADRESS</span>
-            <span className="item_content">
+            <span className="item_content item_adress">
               AquaCraft, Dollings Pool Farm,TA19 9PX
             </span>
           </div>

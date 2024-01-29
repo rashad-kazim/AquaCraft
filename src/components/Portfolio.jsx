@@ -3,6 +3,7 @@ import commercial from "../assets/images/commercial.jpg";
 import domestic from "../assets/images/domestic.jpg";
 import eco from "../assets/images/eco.jpg";
 import "../css/portfolio.css";
+import "../css/responsive/portfolio.css";
 
 const Portfolio = () => {
   return (
@@ -27,7 +28,7 @@ const Portfolio = () => {
             <div className="header_line"></div>
           </div>
         </div>
-        <div className="portfolio_card_1">
+        <div className="portfolio_card_1 portfolio_card_last">
           <img src={eco} alt="" />
           <div className="card_overlay">
             <span className="card_detail">Eco Build</span>

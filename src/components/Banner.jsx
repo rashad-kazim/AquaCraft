@@ -1,13 +1,15 @@
 import React, { useContext } from "react";
 import bg_hero from "../assets/video/HeroBanner.mp4";
 import "../css/banner.css";
+import "../css/responsive/banner.css";
+
 import { AppContext } from "../context/AppContext";
 
 const Banner = () => {
   const { pageLoaded } = useContext(AppContext);
 
   return (
-    <div className="banner_container">
+    <div className="banner_container" id="banner">
       <div className="video_bg">
         <video src={bg_hero} muted autoPlay={"autoplay"} loop />
       </div>
