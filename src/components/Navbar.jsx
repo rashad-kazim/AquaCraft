@@ -45,9 +45,7 @@ const Navbar = () => {
           hamburger === true ? "right_container right_resp" : "right_container"
         }>
         <nav className="nav_container">
-          <Link
-            to="https://www.youtube.com/watch?v=7wzuievFjrk&ab_channel=CodeWithAjesh"
-            className="nav_item">
+          <Link to="banner" className="nav_item">
             Home
           </Link>
           <Link to="portfolio" className="nav_item">
