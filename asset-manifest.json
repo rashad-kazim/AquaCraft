@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/aquacraft/static/css/main.f876e2d4.css",
+    "main.js": "/aquacraft/static/js/main.33da432f.js",
+    "static/js/787.f87f3909.chunk.js": "/aquacraft/static/js/787.f87f3909.chunk.js",
+    "static/media/HeroBanner.mp4": "/aquacraft/static/media/HeroBanner.5cccbdc2192a70835197.mp4",
+    "static/media/ShowcaseBackground.jpg": "/aquacraft/static/media/ShowcaseBackground.712e3909e26ee298267f.jpg",
+    "static/media/team.jpg": "/aquacraft/static/media/team.166ba38989ad9dded0a9.jpg",
+    "static/media/Roboto-Medium.ttf": "/aquacraft/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/smteam.jpg": "/aquacraft/static/media/smteam.3ed2fde4c8c1be697add.jpg",
+    "static/media/FormBackground.png": "/aquacraft/static/media/FormBackground.3a2c925e54e503edeb89.png",
+    "static/media/domestic.jpg": "/aquacraft/static/media/domestic.9fa75dbc46f53e2552c6.jpg",
+    "static/media/eco.jpg": "/aquacraft/static/media/eco.ef8cad166876fcbca1ff.jpg",
+    "static/media/commercial.jpg": "/aquacraft/static/media/commercial.b5b8bc398ee7a7576df5.jpg",
+    "index.html": "/aquacraft/index.html",
+    "main.f876e2d4.css.map": "/aquacraft/static/css/main.f876e2d4.css.map",
+    "main.33da432f.js.map": "/aquacraft/static/js/main.33da432f.js.map",
+    "787.f87f3909.chunk.js.map": "/aquacraft/static/js/787.f87f3909.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f876e2d4.css",
+    "static/js/main.33da432f.js"
+  ]
+}
